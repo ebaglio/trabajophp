@@ -1,0 +1,7 @@
+<!--Ejemplo 3 -->
+
+
+    <?php
+      echo "<p>Hola Mundo</p>";
+    ?>
+

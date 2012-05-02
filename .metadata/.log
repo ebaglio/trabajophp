@@ -234,3 +234,21 @@ org.eclipse.core.internal.resources.ResourceException: Marker id 227 not found.
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
 !SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:15:11.481
 !MESSAGE Marker id 227 not found.
+!SESSION 2012-05-02 18:41:44.994 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-05-02 18:41:58.444
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2012-05-02 18:51:06.778 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 4 566 2012-05-02 18:51:49.278
+!MESSAGE Workspace was not properly initialized or has already shutdown.
