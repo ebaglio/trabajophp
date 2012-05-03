@@ -1,0 +1,11 @@
+<?php
+
+print "versión sistema:" PHP_VERSION;
+print "versión PHP:" PHP_VERSION;
+$cantidad = 157;
+$billete50 = $cantidad / 50;
+$calderilla = $billete50 % 50
+print "billetes de 50", $billete50 ;
+print "calderilla", $calderilla ;
+
+?>

@@ -1,0 +1,11 @@
+<?php
+
+$mineral = array(
+'dorado' => 'Oro',
+'plateado' => 'Plata',
+'brillante' => 'Diamante',
+'negro' => 'Carbón'
+);
+echo $mineral['brillante'];
+
+?>

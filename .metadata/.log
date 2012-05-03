@@ -234,3 +234,996 @@ org.eclipse.core.internal.resources.ResourceException: Marker id 227 not found.
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
 !SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:15:11.481
 !MESSAGE Marker id 227 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:36:11.961
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1172 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:167)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:36:11.961
+!MESSAGE Marker id 1172 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:38:47.667
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 2172 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:174)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:38:47.667
+!MESSAGE Marker id 2172 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:39:51.166
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 2765 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:170)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:39:51.166
+!MESSAGE Marker id 2765 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:39:58.210
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 2848 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:167)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:39:58.210
+!MESSAGE Marker id 2848 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:40:33.843
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 3222 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:170)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:40:33.843
+!MESSAGE Marker id 3222 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:40:46.398
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 3399 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:174)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:40:46.398
+!MESSAGE Marker id 3399 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:41:32.776
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 4382 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:167)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:41:32.776
+!MESSAGE Marker id 4382 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:41:34.297
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 4417 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:167)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:41:34.297
+!MESSAGE Marker id 4417 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:41:36.812
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 4474 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:165)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:41:36.812
+!MESSAGE Marker id 4474 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:42:11.145
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 5287 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:167)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:42:11.145
+!MESSAGE Marker id 5287 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:42:34.809
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 5851 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:167)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:42:34.809
+!MESSAGE Marker id 5851 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:42:51.418
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 6244 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:167)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:42:51.418
+!MESSAGE Marker id 6244 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:44:00.710
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7395 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:167)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:44:00.711
+!MESSAGE Marker id 7395 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:44:29.880
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 8015 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:174)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:44:29.881
+!MESSAGE Marker id 8015 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:46:48.455
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 9146 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:165)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:46:48.455
+!MESSAGE Marker id 9146 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:46:54.484
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 9222 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:167)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:46:54.484
+!MESSAGE Marker id 9222 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:48:34.519
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 10415 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:165)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:48:34.520
+!MESSAGE Marker id 10415 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:50:07.913
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 11524 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:187)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:50:07.913
+!MESSAGE Marker id 11524 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:50:21.978
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 11691 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:170)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:50:21.978
+!MESSAGE Marker id 11691 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:50:24.990
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 11726 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:167)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:50:24.990
+!MESSAGE Marker id 11726 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-02 14:50:46.584
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 11984 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:165)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.AbstractThemeableEditor$3.run(AbstractThemeableEditor.java:1256)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3563)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3212)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-02 14:50:46.585
+!MESSAGE Marker id 11984 not found.
+
+!ENTRY org.eclipse.core.resources 4 566 2012-05-02 14:53:53.870
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+!SESSION 2012-05-03 12:19:48.599 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY com.aptana.formatter.epl 4 0 2012-05-03 12:23:25.346
+!MESSAGE (Build 3.0.0.1332346356) [ERROR] com.aptana.formatter.epl/debug Error while formatting the code in your editor.
+ Please submit a bug report through Studio's support and include the relevant code which triggered this error.
+
+!ENTRY com.aptana.editor.common 4 0 2012-05-03 12:23:25.357
+!MESSAGE (Build 3.0.3.1333576469) [ERROR]  Error while formatting the file template code
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.editor.common.internal.formatter.CommonFormatterUtils.format(CommonFormatterUtils.java:91)
+	at com.aptana.editor.common.internal.scripting.NewFileWizard.getTemplateContent(NewFileWizard.java:132)
+	at com.aptana.editor.common.internal.scripting.TemplateSelectionPage.setPreviewContent(TemplateSelectionPage.java:200)
+	at com.aptana.editor.common.internal.scripting.TemplateSelectionPage.selectionChanged(TemplateSelectionPage.java:115)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1725)
+	at org.eclipse.jface.viewers.TableViewer.setSelection(TableViewer.java:158)
+	at com.aptana.editor.common.internal.scripting.TemplateSelectionPage.selectInitialTemplate(TemplateSelectionPage.java:165)
+	at com.aptana.editor.common.internal.scripting.TemplateSelectionPage.setVisible(TemplateSelectionPage.java:310)
+	at org.eclipse.jface.wizard.WizardDialog.updateForPage(WizardDialog.java:1260)
+	at org.eclipse.jface.wizard.WizardDialog.access$4(WizardDialog.java:1239)
+	at org.eclipse.jface.wizard.WizardDialog$8.run(WizardDialog.java:1228)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.wizard.WizardDialog.showPage(WizardDialog.java:1226)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:915)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:428)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:240)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:98)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.aptana.formatter.epl 4 0 2012-05-03 12:23:25.375
+!MESSAGE (Build 3.0.0.1332346356) [ERROR] com.aptana.formatter.epl/debug Error while formatting the code in your editor.
+ Please submit a bug report through Studio's support and include the relevant code which triggered this error.
+
+!ENTRY com.aptana.editor.common 4 0 2012-05-03 12:23:25.376
+!MESSAGE (Build 3.0.3.1333576469) [ERROR]  Error while formatting the file template code
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.editor.common.internal.formatter.CommonFormatterUtils.format(CommonFormatterUtils.java:91)
+	at com.aptana.editor.common.internal.scripting.NewFileWizard.getTemplateContent(NewFileWizard.java:132)
+	at com.aptana.editor.common.internal.scripting.TemplateSelectionPage.setPreviewContent(TemplateSelectionPage.java:200)
+	at com.aptana.editor.common.internal.scripting.TemplateSelectionPage.selectInitialTemplate(TemplateSelectionPage.java:166)
+	at com.aptana.editor.common.internal.scripting.TemplateSelectionPage.setVisible(TemplateSelectionPage.java:310)
+	at org.eclipse.jface.wizard.WizardDialog.updateForPage(WizardDialog.java:1260)
+	at org.eclipse.jface.wizard.WizardDialog.access$4(WizardDialog.java:1239)
+	at org.eclipse.jface.wizard.WizardDialog$8.run(WizardDialog.java:1228)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.wizard.WizardDialog.showPage(WizardDialog.java:1226)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:915)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:428)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:240)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:98)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.aptana.formatter.epl 4 0 2012-05-03 12:23:26.651
+!MESSAGE (Build 3.0.0.1332346356) [ERROR] com.aptana.formatter.epl/debug Error while formatting the code in your editor.
+ Please submit a bug report through Studio's support and include the relevant code which triggered this error.
+
+!ENTRY com.aptana.editor.common 4 0 2012-05-03 12:23:26.651
+!MESSAGE (Build 3.0.3.1333576469) [ERROR]  Error while formatting the file template code
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.editor.common.internal.formatter.CommonFormatterUtils.format(CommonFormatterUtils.java:91)
+	at com.aptana.editor.common.internal.scripting.NewFileWizard.getTemplateContent(NewFileWizard.java:132)
+	at com.aptana.editor.common.internal.scripting.WizardNewFilePage.getInitialContents(WizardNewFilePage.java:79)
+	at org.eclipse.ui.dialogs.WizardNewFileCreationPage.createNewFile(WizardNewFileCreationPage.java:380)
+	at com.aptana.editor.common.internal.scripting.NewFileWizard.performFinish(NewFileWizard.java:73)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:827)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:432)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:240)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:98)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-03 12:24:54.499
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 12966 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:174)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-03 12:24:54.500
+!MESSAGE Marker id 12966 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-03 12:24:59.051
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 12981 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:167)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.AbstractThemeableEditor$3.run(AbstractThemeableEditor.java:1256)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3563)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3212)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-03 12:24:59.051
+!MESSAGE Marker id 12981 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-03 12:25:12.844
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 13062 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:165)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-03 12:25:12.845
+!MESSAGE Marker id 13062 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-03 12:26:21.327
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 13534 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:167)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-03 12:26:21.327
+!MESSAGE Marker id 13534 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-03 12:26:30.384
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 13587 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:174)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-03 12:26:30.384
+!MESSAGE Marker id 13587 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-03 12:26:48.499
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 13748 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:165)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-03 12:26:48.499
+!MESSAGE Marker id 13748 not found.
+
+!ENTRY com.aptana.editor.php.epl 4 0 2012-05-03 12:27:45.839
+!MESSAGE (Build 3.0.0.1331845740) [ERROR]  Error updating PHP error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 14166 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.updateMarkers(BuildProblemReporter.java:170)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.access$0(BuildProblemReporter.java:99)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter$1.run(BuildProblemReporter.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.aptana.editor.php.internal.core.builder.BuildProblemReporter.flush(BuildProblemReporter.java:89)
+	at org2.eclipse.php.internal.core.ast.nodes.AST.flushErrors(AST.java:244)
+	at com.aptana.editor.php.internal.parser.PHPParser.parse(PHPParser.java:153)
+	at com.aptana.parsing.ParserPoolFactory.doParse(ParserPoolFactory.java:286)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:244)
+	at com.aptana.editor.php.internal.ui.editor.PHPSourceEditor.getAST(PHPSourceEditor.java:178)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.getAST(AbstractFoldingComputer.java:57)
+	at com.aptana.editor.common.text.AbstractFoldingComputer.emitFoldingRegions(AbstractFoldingComputer.java:78)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.calculatePositions(CommonReconcilingStrategy.java:161)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:221)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:205)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:367)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2012-05-03 12:27:45.840
+!MESSAGE Marker id 14166 not found.
