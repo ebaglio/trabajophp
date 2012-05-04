@@ -1,0 +1,20 @@
+<?php
+/*Ejercicio :
+
+dada una cantidad por ejeplo 12523 nos diga la descomposicion en billetes y monedas minima*/
+
+$dinero =12524;
+
+$billetes500 = intval($dinero / 500);
+if ($billetes500!=0){
+	echo $billetes500.'</br>';
+	$dinero =$dinero - $billetes500 * 500;
+}
+$billetes200 = intval($dinero / 200);
+if ($billetes200!=0){
+	echo $billetes200.'</br>';
+	$dinero =$dinero - $billetes200 * 200;
+}
+
+
+?>

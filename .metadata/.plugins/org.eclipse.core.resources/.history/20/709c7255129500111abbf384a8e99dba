@@ -1,0 +1,31 @@
+<?php
+# 1)Define una matriz asociativa con 10 valores y escribela por pantalla en una tabla
+# 2)Muestras la martiz asociativa $_SERVER
+# 3)consulta la ayuda de 5 funciones de distintos tipos y prueba su funcionamiento con un ejemplo
+# 4)Recorre una matriz multidimensional*/
+
+
+
+
+$animal = array(
+'mamifero' => 'león',
+'ave' => 'pato',
+'insecto' => 'mosca',
+'pez' => 'sardina',
+'reptil' => 'cocodrilo',
+'molusco'=> 'caracol',
+'crustaceo'=> 'bogavante'
+);
+
+print_r($animal);
+echo '/<br>';
+
+	echo '<table>';
+	echo '<tr>','<td>','CLASE','</td>','<td>','ANIMAL','</td>','</tr>';	
+        foreach ($clase as $animalito)
+        {
+        		echo '<tr>','<td>',"$clase",'</td>','<td>',"$animalito",'</td>','</tr>';
+        }
+	echo '</table>';
+
+?>

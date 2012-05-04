@@ -1,5 +1,0 @@
-<?php
-
-print "versión sistema: " PHP_VERSION;
-
-?>

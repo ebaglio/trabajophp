@@ -1,0 +1,102 @@
+<?php
+          header( "Content-Type: text/html");
+          print "
+          <html>
+          <head>
+          <title>Datos personales</title>
+          </head>
+          <body>
+
+   ";
+  
+  echo "Lenguaje: ".$_REQUEST["lenguajes[]"]."</br>";
+  echo "Edad:".$_REQUEST["Edad"]."</br>";
+  echo $_REQUEST["lenguajes"]."</br>";
+  
+  if (isset($_REQUEST["name"])){
+          $name=$_REQUEST["name"];
+          $email=$_REQUEST["email"];
+          printf ("<h2>Hola %s tu mail es  %s</h2>" ,$name, $email? $email : "-----");
+  }  else{
+          print "
+           <br />
+<b>Proporciona tus datos:</b><br /><br />
+<form method=\"POST\" action=\"$_SERVER[PHP_SELF]\">
+<td>Nombre:</td><td> <input type=\"text\" name=\"name\" size=50></td>
+<td>Email:</td><td> <input type=\"text\" name=\"name\" size=50></td>
+<tr>
+<select name=\"Edad\">
+        <option value=\"De0a20\" selected>De0a20</option>
+    <option value=\"De 20 a 60\">De 20 a 60</option>
+    </select>
+</tr>
+<br>
+<tr> Elige lenguaje de programaci&Oacute;n
+	<select multiple name=\"lenguajes[]\">
+   <option value=\"C\">C</option>
+   <option value=\"Java\">Java</option>
+   <option value=\"Pascal\">Pascal</option>
+   <option value=\"Basic\">Basic</option>
+</select><br>
+</tr>
+<tr>
+	<input type=\"checkbox\" name=\"viajes\" value=\"on\" /> Viajes
+	<input type=\"checkbox\" name=\"deportes\" value=\"on\" /> Deportes
+	<input type=\"checkbox\" name=\"conciertazos\" value=\"on\" /> Conciertazos
+	<input type=\"checkbox\" name=\"fiestas\" value=\"on\" /> Fiestas
+</tr>
+<input name=\"send\" type=\"submit\" id=\"send\" value=\"Enviar!\">
+
+</form>
+          ";
+  }
+  
+  echo "</br>";
+ if (isset ($_REQUEST['mates'])){
+    $math_flag = "ON";
+            }
+  else{
+    $math_flag = "OFF";
+            }
+
+     if (isset ($_REQUEST['fisica'])){
+    $fis_flag = "ON";
+            }
+ else{
+    $fis_flag = "OFF";
+            }
+
+    echo "\$math_flag = ".$math_flag." \$fis_flag = ".$fis_flag;
+  
+    if (isset($_REQUEST['subject'])){
+    $subject = $_REQUEST['subject'];
+    }
+    else{
+    $subject = "Not set" ;
+    }
+    echo "radio buton $subject <br>";
+  
+        if (isset($_REQUEST['textcontent'])){
+      $text_content = $_REQUEST['textcontent'];
+      }
+      else{
+      $text_content = "vacio";
+      }
+
+      echo "text area = $text_content";
+  
+        if (isset($_REQUEST['dropdown'])){
+   $select = $_REQUEST['dropdown'];
+}else{
+   $select = "Not entered";
+   }
+   echo "select = $select";
+ 
+ foreach ($_REQUEST['cerveza'] as $birras){
+      echo $birras."<br>";
+
+    }  
+  
+  print "</body>";
+  print "</html>";
+?>

@@ -1,0 +1,19 @@
+<?php
+
+function factorial($n) {
+
+    if ($n==0) {
+        return 1;
+    } else {
+        return $n * factorial($n - 1);
+    }
+}
+
+
+
+echo factorial(10);
+
+echo "<form method=\"POST\" action=\"$_SERVER[PHP_SELF]\">
+<td>Nombre:</td><td> <input type=\"text\" name=\"name\" size=50></td>
+</form>"
+?>

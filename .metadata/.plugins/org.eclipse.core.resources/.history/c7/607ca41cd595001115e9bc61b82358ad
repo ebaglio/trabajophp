@@ -1,0 +1,45 @@
+<html>
+<head>
+        <title>Formulario datos personales</title>
+<head>
+<body>
+ <br />
+<b>Proporciona tus datos:</b><br /><br />
+<form method="post" action="<?= $_SERVER['PHP_SELF'] ?>">
+<td>Nombre:</td><td> <input type=\"text\" name=\"name\" size=50></td>
+<td>Email:</td><td> <input type=\"text\" name=\"name\" size=50></td>
+<tr>
+<select name=\"Edad\">
+        <option value=\"De0a20\" selected>De0a20</option>
+    <option value=\"De 20 a 60\">De 20 a 60</option>
+    </select>
+</tr>
+<br>
+<tr> Elige lenguaje de programación
+	<select multiple name=\"lenguajes[]\">
+   <option value=\"C\">C</option>
+   <option value=\"Java\">Java</option>
+   <option value=\"Pascal\">Pascal</option>
+   <option value=\"Basic\">Basic</option>
+</select><br>
+</tr>
+<tr>
+	<input type="checkbox" name="viajes" value="on" /> Viajes
+	<input type="checkbox" name="deportes" value="on" /> Deportes
+	<input type="checkbox" name="conciertazos" value="on" /> Conciertazos
+	<input type="checkbox" name="fiestas" value="on" /> Fiestas
+</tr>
+<input name="send" type="submit" id="send" value="Enviar!">
+
+</form>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

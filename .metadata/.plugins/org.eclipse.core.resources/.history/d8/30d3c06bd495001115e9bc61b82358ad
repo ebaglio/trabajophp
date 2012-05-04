@@ -1,0 +1,56 @@
+<html>
+<head>
+        <title>Formulario datos personales</title>
+<head>
+<body>
+ <br />
+<b>Selecciona tus postres favoritos:</b><br /><br />
+<form method="post" action="<?= $_SERVER['PHP_SELF'] ?>">
+<td>Nombre:</td><td> <input type=\"text\" name=\"name\" size=50></td>
+<td>Email:</td><td> <input type=\"text\" name=\"name\" size=50></td>
+<tr>
+<select name=\"Edad\">
+        <option value=\"De0a20\" selected>De0a20</option>
+    <option value=\"De 20 a 60\">De 20 a 60</option>
+    </select>
+</tr>
+<tr>
+	  <select multiple name=\"lenguajes[]\">
+   <option value=\"C\">C</option>
+   <option value=\"Java\">Java</option>
+   <option value=\"Pascal\">Pascal</option>
+   <option value=\"Aguila\">Aguila</option>
+</select><br>
+</tr>
+<tr>
+	<input type="checkbox" name="viajes" value="on" /> Viajes
+	<input type="checkbox" name="deportes" value="on" /> Deportes
+	<input type="checkbox" name="conciertazos" value="on" /> Conciertazos
+	<input type="checkbox" name="fiestas" value="on" /> Fiestas
+</tr>
+
+
+<input type=\"radio\" name=\"subject\" value=\"maths\" /> Maths
+
+</form>
+
+<?php
+if (isset($_POST['postre']))
+{
+   $postre = $_POST['postre'];
+   $n        = count($postre);
+   $i        = 0;
+
+   echo "Tus postres favoritos son: rn" .
+                "<ol>";
+   while ($i < $n)
+   {
+          echo "<li>{$postre[$i]}</li> rn";
+          $i++;
+   }
+   echo "</ol>";
+}
+?>
+
+</body>
+</html>
