@@ -1,0 +1,5 @@
+linea 1
+linea 2
+hola amigos
+etcetera
+adios

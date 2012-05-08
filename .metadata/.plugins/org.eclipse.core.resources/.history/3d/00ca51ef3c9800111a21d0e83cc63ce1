@@ -1,0 +1,14 @@
+<?php
+$dir=opendir('/');
+echo "<table>";
+while ($file = readdir($dir))
+{
+if ($file != "." && $file != "..")
+{
+$size = filesize($file) ; // Lo pasa a Kbytes
+echo "<TR><TD >".$file."</TD ><td>".$size."</TD></TR>";
+}
+}
+closedir($dir);
+echo "</table>"
+?>

@@ -1,0 +1,21 @@
+     <?php
+
+      class Usuario{
+      private $nombre;
+      private $nombreReal;
+      private $edad;
+      private $clave;
+
+      /** getter / setter */
+      public function getEdad()
+      {return $this->edad;}
+      public function setEdad($edad)
+      {$this->edad = $edad;}
+
+      public function getNombre()
+      {return $this->nombre;}
+
+      public function setClave($clave)
+      {$this->clave = $clave;}
+      }
+      ?>

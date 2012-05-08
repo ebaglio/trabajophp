@@ -1,0 +1,40 @@
+try {
+    $conn = new PDO("mysql:host=localhost;dbname=mydb");
+} catch (PDOException $e) {
+    echo $e->getMessage();
+}
+
+
+$sql = 'SELECT * FROM releases ORDER BY version';
+foreach ($conn->query($sql) as $row ) {
+        echo $row['name'] . "    :  ";
+        echo $row['version'] . "      :  ";
+        echo $row['date'] . "<br>";
+}
+
+        <?php
+echo "instalar <br>";
+foreach(PDO::getAvailableDrivers() as $driver)
+{
+echo $driver;
+}
+$DBACCESS = array(
+        "connstring"=>"mysql:host=localhost;dbname=test",
+        "host"=>"localhost",
+        "user"=>"root",
+        "password"=>"pass"
+        );
+
+        echo implode('<br \>',$DBACCESS);
+try{
+        $dbh = new PDO($DBACCESS['connstring'],$DBACCESS['root'],$DBACCESS['usuario']);
+} catch (PDOException $e) {
+        echo $e->getMessage();
+}
+$sql = 'SELECT * FROM releases ORDER BY version';
+foreach ($dbh->query($sql) as $row ) {
+                echo $row['name'] . "    :  ";
+                echo $row['version'] . "      :  ";
+                echo $row['date'] . "<br>";
+}
+?>

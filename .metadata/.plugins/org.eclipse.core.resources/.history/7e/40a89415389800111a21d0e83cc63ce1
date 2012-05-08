@@ -1,0 +1,38 @@
+  <Html>
+  <Title>  Ejemplo </Title>
+  <Body>
+
+  <?Php
+          $Texto="La materia se transforma consumiendo o liberando energía.";
+          $f = fopen("Texto1.txt",w);
+          fputs($f, $Texto);
+          echo "Texto almacenado correctamente";
+          fclose($f);
+  ?>
+  </Body>
+  </Html>
+
+  otro ejemplo
+
+  <?php
+
+  if (isset($_REQUEST['save'])){
+  $text_content = $_REQUEST['textcontent'];
+      $f=fopen("texto.txt",'w');
+          fwrite($f, $text_content);
+      echo "guardado";
+  }
+  $contenido = file_get_contents('texto.txt');
+
+  print "
+<form method=\"POST\" action=\"$_SERVER[PHP_SELF]\">
+<table>";
+  echo "<textarea name=\"textcontent\" cols=\"40\" rows=\"4\">"
+     .htmlspecialchars($contenido).
+    "</textarea>";
+  print "
+  <input type=\"submit\" value=\"Submit\" name=\"save\"></form>
+
+  <br><hr>";
+
+  ?>

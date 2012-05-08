@@ -1,0 +1,42 @@
+     <?php
+
+      class Usuario{
+      private $nombre;
+      private $rol;
+      private $ip;
+      private $fecha;
+
+	  function __construct($nombre,$rol)
+             {
+             if (file_exists ($name))
+             {
+
+             $this->name=$name;
+             $this->size=filesize($name);
+
+             }else
+             {
+                     if(!touch($name))
+                     {
+                             die('error');
+                     }
+             }
+		
+		
+      public function getNombre()
+      {return $this->nombre;}
+      public function getNombre($nombre)
+      {$this->nombre = $nombre;}
+
+      public function getIp()
+      {return $this->ip;}
+      public function setIp($ip)
+      {$this->ip = $ip;}           
+
+      public function getFecha()
+      {return $this->fecha;}
+      public function getFecha($nombre)
+      {$this->fecha = $fecha;}
+     
+      }
+      ?>

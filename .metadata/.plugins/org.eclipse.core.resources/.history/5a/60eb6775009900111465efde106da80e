@@ -1,0 +1,25 @@
+     <?php
+
+      class Usuario{
+      private $nombre;
+      private $rol;
+      private $ip;
+      private $fecha;
+
+      public function getNombre()
+      {return $this->nombre;}
+      public function getNombre($nombre)
+      {$this->nombre = $nombre;}
+
+      public function getIp()
+      {return $this->ip;}
+      public function setIp($ip)
+      {$this->ip = $ip;}           
+
+      public function getFecha()
+      {return $this->fecha;}
+      public function getFecha($nombre)
+      {$this->fecha = $fecha;}
+     
+      }
+      ?>
